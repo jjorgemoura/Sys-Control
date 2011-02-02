@@ -1,5 +1,20 @@
 // !$*UTF8*$!
 {
+	1D3623240D0F684500981E51 /* SysControlAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 455}}";
+			sepNavSelRange = "{641, 0}";
+			sepNavVisRange = "{0, 974}";
+		};
+	};
+	1D3623250D0F684500981E51 /* SysControlAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 3692}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 812}";
+			sepNavWindowFrame = "{{15, 30}, {1107, 843}}";
+		};
+	};
 	1D6058900D05DD3D006BFB54 /* SysControl */ = {
 		activeExec = 0;
 		executables = (
@@ -10,6 +25,9 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = CFA0638812F97642000DD21E /* SysControl */;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* SysControl */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* SysControl */,
+		);
 		codeSenseManager = CFA063A212F97645000DD21E /* Code sense */;
 		executables = (
 			CFA0638812F97642000DD21E /* SysControl */,
@@ -20,9 +38,9 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					341,
+					632,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -37,12 +55,109 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 318338626;
-			PBXWorkspaceStateSaveDate = 318338626;
+			PBXPerProjectTemplateStateSaveDate = 318342555;
+			PBXWorkspaceStateSaveDate = 318342555;
+		};
+		perUserProjectItems = {
+			CF1FCEB712F98964000709B8 /* PBXBookmark */ = CF1FCEB712F98964000709B8 /* PBXBookmark */;
+			CF1FCEC312F98A00000709B8 /* PBXTextBookmark */ = CF1FCEC312F98A00000709B8 /* PBXTextBookmark */;
+			CF1FCEC412F98A00000709B8 /* PBXTextBookmark */ = CF1FCEC412F98A00000709B8 /* PBXTextBookmark */;
+			CF1FCEC512F98A00000709B8 /* PBXTextBookmark */ = CF1FCEC512F98A00000709B8 /* PBXTextBookmark */;
+			CF1FCEC612F98A00000709B8 /* PBXTextBookmark */ = CF1FCEC612F98A00000709B8 /* PBXTextBookmark */;
+			CF1FCEC712F98A00000709B8 /* PBXBookmark */ = CF1FCEC712F98A00000709B8 /* PBXBookmark */;
+			CF1FCED312F98A0C000709B8 /* PBXBookmark */ = CF1FCED312F98A0C000709B8 /* PBXBookmark */;
+			CF1FCED412F98A0C000709B8 /* PlistBookmark */ = CF1FCED412F98A0C000709B8 /* PlistBookmark */;
 		};
 		sourceControlManager = CFA063A112F97645000DD21E /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	8D1107310486CEB800E47090 /* SysControl-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{339, -25}, {1107, 843}}";
+		};
+	};
+	CF1FCE8A12F98711000709B8 /* apple-touch-icon-256.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 30}, {1107, 843}}";
+		};
+	};
+	CF1FCE9012F9877F000709B8 /* SecondTabViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 416}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 424}";
+		};
+	};
+	CF1FCE9112F9877F000709B8 /* SecondTabViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 2535}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 644}";
+		};
+	};
+	CF1FCEB712F98964000709B8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8D1107310486CEB800E47090 /* SysControl-Info.plist */;
+	};
+	CF1FCEC312F98A00000709B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF1FCE9112F9877F000709B8 /* SecondTabViewController.m */;
+		name = "SecondTabViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 644;
+		vrLoc = 0;
+	};
+	CF1FCEC412F98A00000709B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF1FCE9012F9877F000709B8 /* SecondTabViewController.h */;
+		name = "SecondTabViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 424;
+		vrLoc = 0;
+	};
+	CF1FCEC512F98A00000709B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* SysControlAppDelegate.h */;
+		name = "SysControlAppDelegate.h: 24";
+		rLen = 0;
+		rLoc = 641;
+		rType = 0;
+		vrLen = 974;
+		vrLoc = 0;
+	};
+	CF1FCEC612F98A00000709B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SysControlAppDelegate.m */;
+		name = "SysControlAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 812;
+		vrLoc = 0;
+	};
+	CF1FCEC712F98A00000709B8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = CF1FCE8A12F98711000709B8 /* apple-touch-icon-256.png */;
+	};
+	CF1FCED312F98A0C000709B8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = CF1FCE8A12F98711000709B8 /* apple-touch-icon-256.png */;
+	};
+	CF1FCED412F98A0C000709B8 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* SysControl-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/jorge/MyProjects/iOS/Prod/SysControl/SysControl-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
 	};
 	CFA0638812F97642000DD21E /* SysControl */ = {
 		isa = PBXExecutable;
@@ -60,6 +175,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);

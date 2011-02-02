@@ -8,10 +8,17 @@
 
 #import "SysControlAppDelegate.h"
 
+#import "FirstTabViewController.h"
+#import "SecondTabViewController.h"
+#import "ThirdTabViewController.h"
+#import "FourthTabViewController.h"
+
 
 @implementation SysControlAppDelegate
 
 @synthesize window;
+@synthesize tabBarController;
+
 
 
 #pragma mark -
@@ -20,9 +27,91 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-    
-    [self.window makeKeyAndVisible];
-    
+	NSLog(@"iUZMSG: application:didFinishLaunchingWithOptions - Start");
+	
+	//instanciar o TabBar e Criar um array que vai ter a stack de ViewControllers para o TabBar
+	tabBarController = [[UITabBarController alloc] init];
+	NSMutableArray *localControllersArray = [[NSMutableArray alloc] initWithCapacity:4];
+	
+	//este navViewController e usado para meter o navViewController na tab 1 e 4
+	UINavigationController *tempNavigationController;
+	
+	
+	
+    //1 - Device Info
+	FirstTabViewController *firstController = [[FirstTabViewController alloc] initWithTabBar];
+	
+	//vou instanciar o meu navigation Controller e dizer que o Root View controller da navigation e o FirstTabViewController, que e uma TableViewController
+	tempNavigationController = [[UINavigationController alloc] initWithRootViewController:firstController];
+	
+	
+	// vou adicionar o meu navigation Controller ao array
+	[localControllersArray addObject:tempNavigationController];
+	
+	
+	[firstController release];
+	[tempNavigationController release];
+	
+	
+	
+	//2 - LBS
+	SecondTabViewController *secondController = [[SecondTabViewController alloc] initWithTabBar];
+	
+	// vou adicionar o meu navigation Controller ao array
+	[localControllersArray addObject:secondController];
+	
+	
+	[secondController release];
+	
+	
+	
+	//3 - Accelerometer
+	ThirdTabViewController *thirdController = [[ThirdTabViewController alloc] initWithNibName:@"ThirdTabView" bundle:[NSBundle mainBundle]];
+	
+	// vou adicionar o meu navigation Controller ao array
+	[localControllersArray addObject:thirdController];
+	
+	[thirdController release];
+	
+	
+	
+	//4 - Config
+	FourthTabViewController *fourthController = [[FourthTabViewController alloc] initWithTabBar];
+	
+	//vou instanciar o meu navigation Controller e dizer que o Root View controller da navigation e o FirstTabViewController, que e uma TableViewController
+	tempNavigationController = [[UINavigationController alloc] initWithRootViewController:fourthController];
+	
+	
+	// vou adicionar o meu navigation Controller ao array
+	[localControllersArray addObject:tempNavigationController];
+	
+	[tempNavigationController release];
+	[fourthController release];
+	
+	
+	
+	
+	//por fim, vou atribuir ao TabBar a stack carregada
+	[tabBarController setViewControllers:localControllersArray animated:TRUE];
+	
+	
+	
+	//limpar o array
+	[localControllersArray release];
+	
+	
+	//adicionei a janela umaa vista, que e a vista que vou buscar ao tabBarController
+	[window addSubview:tabBarController.view];
+	
+	
+	
+	
+	//Passo final
+    [window makeKeyAndVisible];
+	
+	NSLog(@"iUZMSG: application:didFinishLaunchingWithOptions - Finnish");
+	
+	
     return YES;
 }
 
@@ -194,6 +283,8 @@
     [managedObjectModel_ release];
     [persistentStoreCoordinator_ release];
     
+	[tabBarController release];
+	
     [window release];
     [super dealloc];
 }

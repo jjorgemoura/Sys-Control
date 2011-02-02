@@ -15,6 +15,19 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+		CF1FCE8B12F98711000709B8 /* apple-touch-icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1FCE8A12F98711000709B8 /* apple-touch-icon-256.png */; };
+		CF1FCE9412F9877F000709B8 /* FirstTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1FCE8D12F9877F000709B8 /* FirstTabViewController.m */; };
+		CF1FCE9512F9877F000709B8 /* FourthTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1FCE8F12F9877F000709B8 /* FourthTabViewController.m */; };
+		CF1FCE9612F9877F000709B8 /* SecondTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1FCE9112F9877F000709B8 /* SecondTabViewController.m */; };
+		CF1FCE9712F9877F000709B8 /* ThirdTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1FCE9312F9877F000709B8 /* ThirdTabViewController.m */; };
+		CF1FCE9C12F9878B000709B8 /* DeviceProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1FCE9912F9878B000709B8 /* DeviceProperties.m */; };
+		CF1FCE9D12F9878B000709B8 /* DevicePropertiesFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1FCE9B12F9878B000709B8 /* DevicePropertiesFactory.m */; };
+		CF1FCE9F12F98799000709B8 /* ThirdTabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF1FCE9E12F98799000709B8 /* ThirdTabView.xib */; };
+		CF1FCEA412F987A2000709B8 /* 19-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1FCEA012F987A2000709B8 /* 19-gear.png */; };
+		CF1FCEA512F987A2000709B8 /* 32-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1FCEA112F987A2000709B8 /* 32-iphone.png */; };
+		CF1FCEA612F987A2000709B8 /* 73-radar.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1FCEA212F987A2000709B8 /* 73-radar.png */; };
+		CF1FCEA712F987A2000709B8 /* 81-dashboard.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1FCEA312F987A2000709B8 /* 81-dashboard.png */; };
+		CF1FCEAE12F98834000709B8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1FCEAD12F98834000709B8 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +43,25 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* SysControl_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SysControl_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* SysControl-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SysControl-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CF1FCE8A12F98711000709B8 /* apple-touch-icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-256.png"; sourceTree = "<group>"; };
+		CF1FCE8C12F9877F000709B8 /* FirstTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTabViewController.h; sourceTree = "<group>"; };
+		CF1FCE8D12F9877F000709B8 /* FirstTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTabViewController.m; sourceTree = "<group>"; };
+		CF1FCE8E12F9877F000709B8 /* FourthTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthTabViewController.h; sourceTree = "<group>"; };
+		CF1FCE8F12F9877F000709B8 /* FourthTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthTabViewController.m; sourceTree = "<group>"; };
+		CF1FCE9012F9877F000709B8 /* SecondTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTabViewController.h; sourceTree = "<group>"; };
+		CF1FCE9112F9877F000709B8 /* SecondTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTabViewController.m; sourceTree = "<group>"; };
+		CF1FCE9212F9877F000709B8 /* ThirdTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTabViewController.h; sourceTree = "<group>"; };
+		CF1FCE9312F9877F000709B8 /* ThirdTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTabViewController.m; sourceTree = "<group>"; };
+		CF1FCE9812F9878B000709B8 /* DeviceProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceProperties.h; sourceTree = "<group>"; };
+		CF1FCE9912F9878B000709B8 /* DeviceProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceProperties.m; sourceTree = "<group>"; };
+		CF1FCE9A12F9878B000709B8 /* DevicePropertiesFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevicePropertiesFactory.h; sourceTree = "<group>"; };
+		CF1FCE9B12F9878B000709B8 /* DevicePropertiesFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevicePropertiesFactory.m; sourceTree = "<group>"; };
+		CF1FCE9E12F98799000709B8 /* ThirdTabView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdTabView.xib; sourceTree = "<group>"; };
+		CF1FCEA012F987A2000709B8 /* 19-gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "19-gear.png"; sourceTree = "<group>"; };
+		CF1FCEA112F987A2000709B8 /* 32-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "32-iphone.png"; sourceTree = "<group>"; };
+		CF1FCEA212F987A2000709B8 /* 73-radar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "73-radar.png"; sourceTree = "<group>"; };
+		CF1FCEA312F987A2000709B8 /* 81-dashboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "81-dashboard.png"; sourceTree = "<group>"; };
+		CF1FCEAD12F98834000709B8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +73,7 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
 				28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */,
+				CF1FCEAE12F98834000709B8 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +83,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CF1FCE8012F98633000709B8 /* Controllers */,
+				CF1FCE8112F9866C000709B8 /* CoreData */,
+				CF1FCE8212F98689000709B8 /* Model */,
+				CF1FCE8312F9868E000709B8 /* RIM */,
 				1D3623240D0F684500981E51 /* SysControlAppDelegate.h */,
 				1D3623250D0F684500981E51 /* SysControlAppDelegate.m */,
 			);
@@ -88,6 +125,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CF1FCE8812F986C6000709B8 /* Images */,
+				CF1FCE8712F986BD000709B8 /* Logos */,
+				CF1FCE8912F986CC000709B8 /* Views */,
 				2819305F112F816700ECF9B4 /* SysControl.xcdatamodeld */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* SysControl-Info.plist */,
@@ -102,8 +142,79 @@
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
 				28D801B30F44B63D00FB423F /* CoreData.framework */,
+				CF1FCEAD12F98834000709B8 /* CoreLocation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1FCE8012F98633000709B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF1FCE8C12F9877F000709B8 /* FirstTabViewController.h */,
+				CF1FCE8D12F9877F000709B8 /* FirstTabViewController.m */,
+				CF1FCE8E12F9877F000709B8 /* FourthTabViewController.h */,
+				CF1FCE8F12F9877F000709B8 /* FourthTabViewController.m */,
+				CF1FCE9012F9877F000709B8 /* SecondTabViewController.h */,
+				CF1FCE9112F9877F000709B8 /* SecondTabViewController.m */,
+				CF1FCE9212F9877F000709B8 /* ThirdTabViewController.h */,
+				CF1FCE9312F9877F000709B8 /* ThirdTabViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CF1FCE8112F9866C000709B8 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		CF1FCE8212F98689000709B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF1FCE9812F9878B000709B8 /* DeviceProperties.h */,
+				CF1FCE9912F9878B000709B8 /* DeviceProperties.m */,
+				CF1FCE9A12F9878B000709B8 /* DevicePropertiesFactory.h */,
+				CF1FCE9B12F9878B000709B8 /* DevicePropertiesFactory.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF1FCE8312F9868E000709B8 /* RIM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RIM;
+			sourceTree = "<group>";
+		};
+		CF1FCE8712F986BD000709B8 /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				CF1FCE8A12F98711000709B8 /* apple-touch-icon-256.png */,
+			);
+			name = Logos;
+			path = Resources/Logos;
+			sourceTree = "<group>";
+		};
+		CF1FCE8812F986C6000709B8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CF1FCEA012F987A2000709B8 /* 19-gear.png */,
+				CF1FCEA112F987A2000709B8 /* 32-iphone.png */,
+				CF1FCEA212F987A2000709B8 /* 73-radar.png */,
+				CF1FCEA312F987A2000709B8 /* 81-dashboard.png */,
+			);
+			name = Images;
+			path = Resources/Images;
+			sourceTree = "<group>";
+		};
+		CF1FCE8912F986CC000709B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF1FCE9E12F98799000709B8 /* ThirdTabView.xib */,
+			);
+			name = Views;
+			path = Resources/Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +267,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				CF1FCE8B12F98711000709B8 /* apple-touch-icon-256.png in Resources */,
+				CF1FCE9F12F98799000709B8 /* ThirdTabView.xib in Resources */,
+				CF1FCEA412F987A2000709B8 /* 19-gear.png in Resources */,
+				CF1FCEA512F987A2000709B8 /* 32-iphone.png in Resources */,
+				CF1FCEA612F987A2000709B8 /* 73-radar.png in Resources */,
+				CF1FCEA712F987A2000709B8 /* 81-dashboard.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +286,12 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* SysControlAppDelegate.m in Sources */,
 				28193060112F816700ECF9B4 /* SysControl.xcdatamodeld in Sources */,
+				CF1FCE9412F9877F000709B8 /* FirstTabViewController.m in Sources */,
+				CF1FCE9512F9877F000709B8 /* FourthTabViewController.m in Sources */,
+				CF1FCE9612F9877F000709B8 /* SecondTabViewController.m in Sources */,
+				CF1FCE9712F9877F000709B8 /* ThirdTabViewController.m in Sources */,
+				CF1FCE9C12F9878B000709B8 /* DeviceProperties.m in Sources */,
+				CF1FCE9D12F9878B000709B8 /* DevicePropertiesFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +333,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};
@@ -223,6 +347,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
