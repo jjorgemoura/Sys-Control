@@ -1,4 +1,5 @@
-About Sys Control
+Sys Control
+======================
 
 Sys Control is a mobile application to iOS that allow the user to check some system information, such as:
 
@@ -7,9 +8,62 @@ Sys Control is a mobile application to iOS that allow the user to check some sys
 - Accelerometer data
 
 
-Troubleshooting
+## Quick start
+See the code.
 
-Please, send you feedback to: contact@zindon.com
+## How to install
+Download, compine and run it.
+
+## How to use
+Run it!
+
+## How to configure / options
+Soon...
+
+## How to do testing / test environment / testing philosophy?
+Soon...
+
+## API / Documentation
+Soon...
+
+## How to contribute
 
 
-LICENCE
+## Getting help
+Soon...
+
+## Status of project
+In developing.
+
+## Contributers
+
+- Jorge Moura
+
+
+## Demo
+Soon...
+
+## Technical requirements
+Soon...
+
+## Troubleshooting
+Soon...
+
+## Changelog
+In developing.
+
+## License
+
+   Copyright 2014 Jose Jorge Abrantes Coelho de Moura
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
